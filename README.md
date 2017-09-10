@@ -1,5 +1,5 @@
 # Video Project Tutorials
 
-Here is the code for project tutrials I have created for the freeCodeCamp. 
+Here is the code for project tutrials I have created for freeCodeCamp. 
 
-So far there is only one: tictactoe. [Watch the full tutorial!](https://youtube.com)
+So far there is only one: tictactoe. [Watch the full tutorial!](https://youtu.be/P2TcQ3h0ipQ)
