@@ -94,7 +94,7 @@ function minimax(newBoard, player) {
 	if (checkWin(newBoard, player)) {
 		return {score: -10};
 	} else if (checkWin(newBoard, aiPlayer)) {
-		return {score: 10};
+		return {score: 20};
 	} else if (availSpots.length === 0) {
 		return {score: 0};
 	}
@@ -104,16 +104,16 @@ function minimax(newBoard, player) {
 		move.index = newBoard[availSpots[i]];
 		newBoard[availSpots[i]] = player;
 
-		if (player == aiPlayer)
-			move.score = minimax(newBoard, huPlayer).score;
-		else 
-			move.score = minimax(newBoard, aiPlayer).score;
-      
+		if (player == aiPlayer) {
+			var result = minimax(newBoard, huPlayer);
+			move.score = result.score;
+		} else {
+			var result = minimax(newBoard, aiPlayer);
+			move.score = result.score;
+		}
+
 		newBoard[availSpots[i]] = move.index;
-        
-      if ((player === aiPlayer && move.score === 10) || (player === huPlayer && move.score === -10))
-        return move;
-      else 
+
 		moves.push(move);
 	}
 
