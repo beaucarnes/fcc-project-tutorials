@@ -3,7 +3,6 @@ const rp = require('request-promise');
 const cheerio = require('cheerio');
 const Table = require('cli-table');
 
-let users = [];
 let table = new Table({
 	head: ['username', '❤️', 'challenges'],
 	colWidths: [15, 5, 10]
