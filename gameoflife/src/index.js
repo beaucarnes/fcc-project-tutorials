@@ -188,7 +188,7 @@ class Main extends React.Component {
 		    if (j > 0) if (g[i][j - 1]) count++;
 		    if (i < this.rows - 1) if (g[i + 1][j]) count++;
 		    if (i < this.rows - 1 && j > 0) if (g[i + 1][j - 1]) count++;
-		    if (i < this.rows - 1 && this.cols - 1) if (g[i + 1][j + 1]) count++;
+		    if (i < this.rows - 1 && j < this.cols - 1) if (g[i + 1][j + 1]) count++;
 		    if (g[i][j] && (count < 2 || count > 3)) g2[i][j] = false;
 		    if (!g[i][j] && count === 3) g2[i][j] = true;
 		  }
