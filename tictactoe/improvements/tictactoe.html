@@ -4,13 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Tic Tac Toe</title>
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
   <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
+	<div class="container">
+		<h1  class="header">Tic Tac Toe</h1>
 
+		<div class="board">
 	<table>
 		<tr>
 			<td class="cell" id="0"></td>
@@ -35,9 +38,12 @@
     <p>Select symbol:</p>
       <button onClick="selectSym('X')">X</button>
       <button onClick="selectSym('O')">O</button>
-    </div>
-	<button onClick="startGame()">Replay</button>
-
+		</div>
+	</div>
+</div>
+<div class="rep" >
+		<button id ="but"onClick="startGame()">Replay</button>
+</div> 
   <script src="script.js"></script>
 </body>
 </html>
