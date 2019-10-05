@@ -40,6 +40,7 @@ function startGame() {
 
 function turnClick(square) {
   if (typeof origBoard[square.target.id] ==='number') {
+    
     turn(square.target.id, huPlayer);
     if (!checkWin(origBoard, huPlayer) && !checkTie())  
       turn(bestSpot(), aiPlayer);

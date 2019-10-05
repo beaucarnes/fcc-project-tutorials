@@ -1,5 +1,40 @@
+
+
+body {
+  background-color: #212121;
+  font-family: "Gochi Hand";
+  color: #cccccc;
+}
+
+.container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.rep{
+  padding-top: 500px;
+  text-align: center;
+}
+
+#but{
+  
+
+  background-color: pink; 
+} 
+
+
+h1.header {
+  font-size: 5rem;
+  
+
+;
+
+
+}
+
+
 td {
-  border:  2px solid #333;
+  border:  6px solid #333;
   height:  100px;
   width:  100px;
   text-align:  center;
@@ -9,12 +44,17 @@ td {
   cursor: pointer;
 }
 
+
+
 table {
   border-collapse: collapse;
+/* background-image: url("https://image.ibb.co/ibsXCa/chalkboard_blue.jpg"); */
+
   position:   absolute;
   left: 50%;
   margin-left: -155px;
-  top: 50px;
+  top: 20px;
+  padding-top: 50px;
 }
 
 table tr:first-child td {
@@ -32,10 +72,12 @@ table tr td:last-child {
   border-right: 0;
 }
 
+
+
 .endgame {
   display: none;
   width:  200px;
-  top: 120px;
+   top: 100px;
   background-color: rgba(205, 133, 63, 0.8);
   position: absolute;
   left: 50%;
@@ -51,7 +93,7 @@ table tr td:last-child {
 .selectSym{
   display: none;
   width: 220px;
-  top: 110px;
+  top: 80px;
   background-color: rgba(205, 133, 63, 0.8);
   position: absolute;
   left: 50%;
@@ -76,4 +118,29 @@ table tr td:last-child {
 .selectSym  button:last-of-type {
   margin-left: 10px;
 }
+ 
 
+
+.board {
+  
+  position: absolute;
+  /* margin: 0 auto; */
+  width: 360px;
+  height: 360px;
+
+  left: 50%;
+  margin-left: -155px;
+  top: 200px;
+
+
+
+  background-color: #C3C2AB;
+  border-radius: 6px;
+  box-shadow: inset -1px -2px 4px 0.1px #89847e;
+  background-image: url("https://image.ibb.co/ibsXCa/chalkboard_blue.jpg");
+   -ms-transform: translateY(15px);
+  /* IE 9 */
+   -webkit-transform: translateY(15px);
+  /* Safari */
+  transform: translateY(15px); 
+}
