@@ -1,0 +1,25 @@
+{
+  "name": "web-scraping",
+  "version": "1.0.0",
+  "description": "'A tutorial to scrape web with server side node program.'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/beaucarnes/fcc-project-tutorials.git"
+  },
+  "author": "beaucarnes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beaucarnes/fcc-project-tutorials/issues"
+  },
+  "homepage": "https://github.com/beaucarnes/fcc-project-tutorials#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cli-table": "^0.3.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
