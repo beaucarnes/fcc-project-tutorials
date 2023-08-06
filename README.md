@@ -1,6 +1,6 @@
-# Video Project Tutorials
+# Video Project Tutorials by Beau Carnes
 
-Here is the code for project tutorials Beau Carnes has created for freeCodeCamp. 
+Here is the code for project tutorials that Beau Carnes has created for freeCodeCamp. 
 
 * Tic-Tac-Toe - [Watch the full tutorial!](https://youtu.be/P2TcQ3h0ipQ)
 * Game of Life - [Watch the full tutorial!](https://youtu.be/PM0_Er3SvFQ)
